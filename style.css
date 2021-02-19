@@ -78,7 +78,47 @@ h2 {
     background: #445161;
 }
 
+.pluses {
+    background: #F5F5F5;
+}
+
+.pluses_heading {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
 .pluses_list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pluses_list_left {
+    max-width: 800px;
+    margin-right: 36px;
+}
+
+.pluses_list_right {
+    max-width: 800px;
+}
+
+.pluses_list_list {
+    list-style-type: none;
+
+}
+
+.pluses_list_element {
+    padding-bottom: 33px;
+    line-height: 24px;
+}
+
+.pluses_text {
+    display: flex;
+    align-items: end;
+}
+
+.pluses_img {
+    padding-right: 8px;
 }
