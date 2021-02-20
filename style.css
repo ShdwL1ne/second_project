@@ -173,3 +173,28 @@ h2 {
 .screenshots_part_left {
     margin-right: 30px;
 }
+
+.reviews_heading {
+    text-align: center;
+}
+
+.reviews_box {
+    display: flex;
+}
+
+.reviews_photo {
+    display: flex;
+}
+
+.reviews_text {
+    background: url(frame.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    padding-left: 30px;
+}
+
+.circle {
+    min-width: 66px;
+    max-height: 69px;
+}
