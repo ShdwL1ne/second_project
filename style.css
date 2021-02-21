@@ -95,7 +95,7 @@ h2 {
 
 .pluses_list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -130,7 +130,7 @@ h2 {
 
 .screenshots_box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .screenshots_heading {
@@ -174,16 +174,30 @@ h2 {
     margin-right: 30px;
 }
 
+.reviews {
+    background: #F5F5F5;
+    padding-bottom: 20px;
+}
+
 .reviews_heading {
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 29px;
 }
 
 .reviews_box {
     display: flex;
+    justify-content: space-around;
+}
+
+.reviews_box_left {
+    margin-right: 20px;
 }
 
 .reviews_photo {
     display: flex;
+    max-width: 800px;
+    margin-bottom: 22px;
 }
 
 .reviews_text {
@@ -191,10 +205,18 @@ h2 {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100%;
+    padding-top: 14px;
     padding-left: 30px;
+    padding-right: 10px;
+}
+
+.reviews_author {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: #989898;
 }
 
 .circle {
     min-width: 66px;
-    max-height: 69px;
+    max-height: 66px;
 }
