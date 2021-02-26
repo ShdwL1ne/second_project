@@ -214,6 +214,8 @@ h2 {
     padding-left: 30px;
     padding-right: 10px;
     max-width: 650px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .reviews_author {
@@ -329,7 +331,7 @@ h2 {
 
 .footer_box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer_form {
@@ -337,6 +339,7 @@ h2 {
     flex-direction: column;
     width: 503px;
     align-items: center;
+    padding-right: 45px;
 }
 
 .footer_input_text {
