@@ -7,22 +7,26 @@
 }
 
 .container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
+    max-width: 1272px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
     background: #445161;
     color: #FFFFFF;
+}
+
+.header_figure {
+    display: flex;
+    justify-content: space-between;
 }
 
 .product_heading {
     font-size: 60px;
     line-height: 69px;
     margin-top: 25px;
-    margin-left: 50px;
     margin-bottom: 40px;
 }
 
@@ -35,7 +39,6 @@ h2 {
 .product_list {
     font-size: 20px;
     line-height: 23px;
-    margin-left: 50px;
     margin-bottom: 10px;
 }
 
@@ -57,7 +60,6 @@ h2 {
     width: 472px;
     height: 217px;
     margin-top: 25px;
-    margin-right: 50px;
 }
 
 .info {
@@ -101,8 +103,6 @@ h2 {
 .pluses_list {
     display: flex;
     justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .pluses_list_left {
