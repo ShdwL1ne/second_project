@@ -6,11 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Main Page</title>
 </head>
 
 <body>
+
     <header class="header">
+        <nav class="header_nav container">
+            <ul class="nav_panel">
+                <li><a href="index.html" class="nav_links">Main Page</a></li>
+                <li><a href="Video.html" class="nav_links">Secret Room</a></li>
+            </ul>
+        </nav>
+        <hr>
         <figure class="container header_figure">
             <div class="header_product">
                 <figcaption class="product_heading">Product name</figcaption>
@@ -53,7 +61,7 @@
                     <ul class="pluses_list_list">
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -62,7 +70,7 @@
                         </li>
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -71,7 +79,7 @@
                         </li>
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -84,7 +92,7 @@
                     <ul class="pluses_list_list">
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -93,7 +101,7 @@
                         </li>
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -102,7 +110,7 @@
                         </li>
                         <li class="pluses_list_element">
                             <div class="pluses_text">
-                                <img src="plus_icon.svg" alt="Marker" class="pluses_img">
+                                <img src="img/plus_icon.svg" alt="Marker" class="pluses_img">
                                 <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                                     atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione
                                     perferendis
@@ -179,7 +187,7 @@
             <div class="reviews_box">
                 <div class="reviews_box_left">
                     <figure class="reviews_photo">
-                        <img src="circle.png" alt="Circle" class="circle">
+                        <img src="img/circle.png" alt="Circle" class="circle">
                         <figcaption class="reviews_text">
                             <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste
                                 quia
@@ -190,7 +198,7 @@
                         </figcaption>
                     </figure>
                     <figure class="reviews_photo">
-                        <img src="circle.png" alt="Circle" class="circle">
+                        <img src="img/circle.png" alt="Circle" class="circle">
                         <figcaption class="reviews_text">
                             <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste
                                 quia
@@ -203,7 +211,7 @@
                 </div>
                 <div class="reviews_box_right">
                     <figure class="reviews_photo">
-                        <img src="circle.png" alt="Circle" class="circle">
+                        <img src="img/circle.png" alt="Circle" class="circle">
                         <figcaption class="reviews_text">
                             <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste
                                 quia
@@ -214,7 +222,7 @@
                         </figcaption>
                     </figure>
                     <figure class="reviews_photo">
-                        <img src="circle.png" alt="Circle" class="circle">
+                        <img src="img/circle.png" alt="Circle" class="circle">
                         <figcaption class="reviews_text">
                             <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste
                                 quia
@@ -292,45 +300,64 @@
         <div class="container">
             <h2 class="footer_heading">Contacts</h2>
             <div class="footer_box">
-                <form action="#" class="footer_form">
+                <form action="#" class="footer_form" oninput="result.value=(range.value)">
                     <input class="footer_input_text" type="text" placeholder="Your name:">
                     <input class="footer_input_text" type="email" placeholder="Your email:">
                     <textarea class="footer_input_textarea" placeholder="Your message:"></textarea>
+
+                    <details class="footer_details">
+                        <summary>Enter more information</summary>
+                        <div class="footer_details_input_box">
+                            <input class="footer_input_text" type="number" placeholder="Your contact phone: ">
+                            <p class="footer_gender">Your gender:</p>
+                            <select class="footer_input_text" id="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <p class="footer_range">Your age:
+                                <output name="result" for="range">30</output>
+                            </p>
+                            <input id="range" type="range" value="30" min="14" max="99" step="1">
+                        </div>
+                    </details>
+
                     <button class="footer_button">SEND</button>
                 </form>
                 <div class="footer_nav_box">
                     <nav class="footer_contacts">
                         <a href="#" class="footer_contacts_link">
-                            <img src="skype_icon.png" alt="Skype icon" class="footer_contacts_link_img">
+                            <img src="img/skype_icon.png" alt="Skype icon" class="footer_contacts_link_img">
                             <p class="footer_contacts_link_text">here_your_login_skype</p>
                         </a>
                         <a href="#" class="footer_contacts_link">
-                            <img src="icq_icon.png" alt="ICQ icon" class="footer_contacts_link_img">
+                            <img src="img/icq_icon.png" alt="ICQ icon" class="footer_contacts_link_img">
                             <p class="footer_contacts_link_text">279679659</p>
                         </a>
                         <a href="#" class="footer_contacts_link">
-                            <img src="email_icon.png" alt="Email icon" class="footer_contacts_link_img">
+                            <img src="img/email_icon.png" alt="Email icon" class="footer_contacts_link_img">
                             <p class="footer_contacts_link_text">psdhtmlcss@mail.ru</p>
                         </a>
                         <a href="#" class="footer_contacts_link">
-                            <img src="bx_bx-phone.png" alt="Phone icon" class="footer_contacts_link_img">
+                            <img src="img/bx_bx-phone.png" alt="Phone icon" class="footer_contacts_link_img">
                             <p class="footer_contacts_link_text">80 00 4568 55 55</p>
                         </a>
                     </nav>
 
                     <nav class="footer_icons_box">
                         <a href="" class="footer_icons_link">
-                            <img src="twitter.png" alt="Twitter icon" class="footer_icons" width="46px" height="46px">
-                        </a>
-                        <a href="" class="footer_icons_link">
-                            <img src="vk.png" alt="VK icon" class="footer_icons">
-                        </a>
-                        <a href="" class="footer_icons_link">
-                            <img src="google.png" alt="Google plus icon" class="footer_icons" width="46px"
+                            <img src="img/twitter.png" alt="Twitter icon" class="footer_icons" width="46px"
                                 height="46px">
                         </a>
                         <a href="" class="footer_icons_link">
-                            <img src="facebook.png" alt="Facebook icon" class="footer_icons">
+                            <img src="img/vk.png" alt="VK icon" class="footer_icons">
+                        </a>
+                        <a href="" class="footer_icons_link">
+                            <img src="img/google.png" alt="Google plus icon" class="footer_icons" width="46px"
+                                height="46px">
+                        </a>
+                        <a href="" class="footer_icons_link">
+                            <img src="img/facebook.png" alt="Facebook icon" class="footer_icons">
                         </a>
                     </nav>
                 </div>

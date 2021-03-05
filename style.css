@@ -13,6 +13,22 @@
     padding-right: 50px;
 }
 
+.nav_panel {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: #57677a;
+}
+
+.header_nav {
+    height: 40px;;
+}
+
 .header {
     background: #445161;
     color: #FFFFFF;
@@ -50,7 +66,7 @@ h2 {
 .product_list_element {
     margin-bottom: 10px;
     padding-left: 20px;
-    background: url(Vector.svg);
+    background: url(img/Vector.svg);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -206,7 +222,7 @@ h2 {
 }
 
 .reviews_text {
-    background: url(frame.svg);
+    background: url(img/frame.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100%;
@@ -349,6 +365,8 @@ h2 {
     margin-bottom: 20px;
     height: 43px;
     width: 503px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .footer_input_textarea {
@@ -358,6 +376,9 @@ h2 {
     height: 173px;
     margin-bottom: 20px;
     width: 503px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .footer_input_text::placeholder {
@@ -373,6 +394,22 @@ h2 {
     color: #445162;
     padding-top: 12px;
     padding-left: 12px;
+}
+
+.footer_details {
+    color: #FFFFFF;
+    align-self: flex-start;
+    padding-bottom: 20px;
+}
+
+.footer_details_input_box {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_range, .footer_gender {
+    padding-bottom: 10px;
 }
 
 .footer_button {
@@ -429,4 +466,17 @@ h2 {
     line-height: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.video_player {
+    width: 100%;
 }
