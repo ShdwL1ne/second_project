@@ -80,6 +80,10 @@ h2 {
     width: 472px;
     height: 217px;
     margin-top: 25px;
+    background-image: url(img/product.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
 }
 
 .info {
@@ -108,6 +112,10 @@ h2 {
     width: 430px;
     height: 245px;
     background: #445161;
+    background-image: url(img/justthetools.svg);
+    background-blend-mode: luminosity;
+    background-size: 70%;
+    background-position: center;
 }
 
 .pluses {
@@ -174,6 +182,10 @@ h2 {
     background: #445161;
     margin-right: 16px;
     margin-bottom: 27px;
+    background-image: url(img/present.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
 }
 
 .screenshots_element {
@@ -247,6 +259,17 @@ h2 {
 .circle {
     min-width: 66px;
     max-height: 66px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.m {
+    background-image: url(img/face2.svg);
+}
+
+.w {
+    background-image: url(img/face1.svg);
 }
 
 .buy_it_now_heading {
